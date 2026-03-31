@@ -6,17 +6,30 @@ const brandVI = {
     address: "  "
   },
   colors: {
+    // 现代商务蓝系 - Modern Business Blue
     primary: {
-      deep: "0A1628",
-      dark: "0F2A47",
-      main: "1E3A5F",
-      mid: "2C5282",
-      light: "3B82F6"
+      deep: "1a365d",      // 深蓝 - 主色
+      dark: "2c5282",      // 中蓝 - 辅助
+      main: "3182ce",      // 亮蓝 - 强调
+      mid: "4299e1",       // 中亮蓝
+      light: "90cdf4"      // 浅蓝 - 装饰
     },
     accent: {
-      gold: "C9A227",
+      gold: "C9A227",      // 金色（保留备用）
       goldLight: "E8D48A",
       warm: "D97706"
+    },
+    // 扩展蓝色系
+    blue: {
+      900: "1a365d",
+      800: "2c5282",
+      700: "3182ce",
+      600: "4299e1",
+      500: "63b3ed",
+      400: "90cdf4",
+      300: "bee3f8",
+      200: "ebf8ff",       // 极浅蓝 - 背景
+      100: "f0f9ff"
     },
     neutral: {
       900: "1A202C",
@@ -39,13 +52,13 @@ const brandVI = {
     }
   },
   typography: {
-    h1: { fontSize: 40, bold: true, color: "primary.deep", align: "left" },
-    h2: { fontSize: 28, bold: true, color: "primary.dark", align: "left" },
-    h3: { fontSize: 20, bold: true, color: "primary.main", align: "left" },
-    h4: { fontSize: 16, bold: true, color: "neutral.700", align: "left" },
-    body: { fontSize: 14, color: "neutral.700", align: "left" },
-    bodySmall: { fontSize: 12, color: "neutral.600", align: "left" },
-    caption: { fontSize: 10, color: "neutral.500", align: "left" }
+    h1: { fontSize: 44, bold: true, color: "primary.deep", align: "left", fontFace: "Microsoft YaHei" },
+    h2: { fontSize: 28, bold: true, color: "primary.dark", align: "left", fontFace: "Microsoft YaHei" },
+    h3: { fontSize: 20, bold: true, color: "primary.main", align: "left", fontFace: "Microsoft YaHei" },
+    h4: { fontSize: 16, bold: true, color: "neutral.700", align: "left", fontFace: "Microsoft YaHei" },
+    body: { fontSize: 14, color: "neutral.700", align: "left", fontFace: "Microsoft YaHei" },
+    bodySmall: { fontSize: 12, color: "neutral.600", align: "left", fontFace: "Microsoft YaHei" },
+    caption: { fontSize: 10, color: "neutral.500", align: "left", fontFace: "Microsoft YaHei" }
   },
   spacing: {
     pageMargin: 0.6,
