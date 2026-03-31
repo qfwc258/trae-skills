@@ -23,6 +23,21 @@ This skill handles all PowerPoint tasks: reading/analyzing existing presentation
 | Read/analyze content | `python -m markitdown presentation.pptx` |
 | Edit or create from template | See [Editing Presentations](references/editing.md) |
 | Create from scratch | See [Creating from Scratch](#creating-from-scratch-workflow) below |
+| **法律案件分析PPT** | See [Legal Case PPT Guide](references/legal-case-ppt-guide.md) - 使用现代商务蓝系配色 |
+
+### 场景路由
+
+```
+用户请求
+├─ 法律案件分析 / 法援案件 / 诉讼报告
+│   └─ 使用 [legal-case-ppt-guide.md](references/legal-case-ppt-guide.md)
+│      - 配色：现代商务蓝系 (primary: "1a365d", secondary: "2c5282", accent: "3182ce")
+│      - 字体：Microsoft YaHei
+│      - 结构：封面 → 目录 → 案件信息 → 事故经过 → 赔偿项目 → 证据清单 → 法律分析 → 结束页
+│
+└─ 其他类型PPT
+    └─ 使用标准设计系统 [design-system.md](references/design-system.md)
+```
 
 | Item | Value |
 |------|-------|
@@ -44,6 +59,7 @@ This skill handles all PowerPoint tasks: reading/analyzing existing presentation
 | [editing.md](references/editing.md) | Template-based editing workflow, XML manipulation, formatting rules, common pitfalls |
 | [pitfalls.md](references/pitfalls.md) | QA process, common mistakes, critical PptxGenJS pitfalls |
 | [pptxgenjs.md](references/pptxgenjs.md) | Complete PptxGenJS API reference |
+| [legal-case-ppt-guide.md](references/legal-case-ppt-guide.md) | **法律案件分析PPT专用指南** - 配色、字体、页面结构、组件规范 |
 
 ---
 
