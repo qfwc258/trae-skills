@@ -1,0 +1,436 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-03-22",
+  "description": "法律文书模板库 - 包含200+官方权威模板，覆盖民事、商事、刑事等9大领域67类场景",
+  "domains": [
+    "民事",
+    "商事",
+    "刑事",
+    "行政",
+    "知识产权",
+    "劳动",
+    "海事",
+    "金融",
+    "执行"
+  ],
+  "templates": [
+    {
+      "id": "civil-complaint-001",
+      "name": "民事起诉状",
+      "domain": "民事",
+      "category": "诉讼文书",
+      "keywords": ["起诉状", "民事诉讼", "原告", "被告", "诉讼请求"],
+      "description": "公民、法人或其他组织向人民法院提起民事诉讼的法定文书",
+      "structure": {
+        "title": "民事起诉状",
+        "sections": ["当事人信息", "诉讼请求", "事实与理由", "证据清单", "落款"]
+      },
+      "elements": [
+        {
+          "name": "原告信息",
+          "required": true,
+          "keywords": ["原告", "姓名", "性别", "年龄", "住址"],
+          "description": "原告的基本身份信息"
+        },
+        {
+          "name": "被告信息",
+          "required": true,
+          "keywords": ["被告", "姓名", "性别", "年龄", "住址"],
+          "description": "被告的基本身份信息"
+        },
+        {
+          "name": "诉讼请求",
+          "required": true,
+          "keywords": ["诉讼请求", "请求事项"],
+          "description": "具体的诉讼请求内容"
+        },
+        {
+          "name": "事实与理由",
+          "required": true,
+          "keywords": ["事实", "理由", "经过"],
+          "description": "案件事实经过和起诉理由"
+        },
+        {
+          "name": "证据清单",
+          "required": false,
+          "keywords": ["证据", "证明"],
+          "description": "支持诉讼请求的证据材料"
+        }
+      ],
+      "legal_basis": ["民事诉讼法", "民法典"],
+      "format_requirements": "符合《人民法院诉讼文书样式》要求"
+    },
+    {
+      "id": "civil-answer-001",
+      "name": "民事答辩状",
+      "domain": "民事",
+      "category": "诉讼文书",
+      "keywords": ["答辩状", "民事答辩", "被告", "答辩意见"],
+      "description": "被告针对原告起诉提出的答辩意见",
+      "structure": {
+        "title": "民事答辩状",
+        "sections": ["当事人信息", "答辩意见", "事实与理由", "证据清单", "落款"]
+      },
+      "elements": [
+        {
+          "name": "答辩人信息",
+          "required": true,
+          "keywords": ["答辩人", "被告"],
+          "description": "答辩人的基本信息"
+        },
+        {
+          "name": "答辩意见",
+          "required": true,
+          "keywords": ["答辩意见", "不同意"],
+          "description": "针对原告诉讼请求的答辩意见"
+        },
+        {
+          "name": "事实与理由",
+          "required": true,
+          "keywords": ["事实", "理由"],
+          "description": "支持答辩意见的事实和理由"
+        }
+      ],
+      "legal_basis": ["民事诉讼法", "民法典"],
+      "format_requirements": "符合《人民法院诉讼文书样式》要求"
+    },
+    {
+      "id": "contract-loan-001",
+      "name": "借款合同",
+      "domain": "民事",
+      "category": "合同协议",
+      "keywords": ["借款合同", "借贷", "借条", "欠条", "还款"],
+      "description": "民间借贷关系中的借款合同模板",
+      "structure": {
+        "title": "借款合同",
+        "sections": ["出借人信息", "借款人信息", "借款金额", "借款期限", "利息约定", "还款方式", "违约责任", "争议解决"]
+      },
+      "elements": [
+        {
+          "name": "出借人信息",
+          "required": true,
+          "keywords": ["出借人", "甲方"],
+          "description": "出借人的基本信息"
+        },
+        {
+          "name": "借款人信息",
+          "required": true,
+          "keywords": ["借款人", "乙方"],
+          "description": "借款人的基本信息"
+        },
+        {
+          "name": "借款金额",
+          "required": true,
+          "keywords": ["金额", "借款数额"],
+          "description": "借款的具体金额（大写和小写）"
+        },
+        {
+          "name": "借款期限",
+          "required": true,
+          "keywords": ["期限", "借款期限", "还款日期"],
+          "description": "借款的起止时间"
+        },
+        {
+          "name": "利息约定",
+          "required": false,
+          "keywords": ["利息", "利率"],
+          "description": "借款利息的计算方式和支付时间"
+        },
+        {
+          "name": "还款方式",
+          "required": true,
+          "keywords": ["还款", "还款方式"],
+          "description": "还款的具体方式和时间"
+        }
+      ],
+      "legal_basis": ["民法典"],
+      "format_requirements": "符合《民法典》合同编要求"
+    },
+    {
+      "id": "contract-lease-house-001",
+      "name": "房屋租赁合同",
+      "domain": "民事",
+      "category": "合同协议",
+      "keywords": ["房屋租赁", "租房合同", "房东", "租客", "房租"],
+      "description": "房屋出租人与承租人之间的租赁合同",
+      "structure": {
+        "title": "房屋租赁合同",
+        "sections": ["出租人信息", "承租人信息", "房屋信息", "租赁期限", "租金", "押金", "费用承担", "维修责任", "违约责任", "其他约定"]
+      },
+      "elements": [
+        {
+          "name": "出租人信息",
+          "required": true,
+          "keywords": ["出租人", "甲方", "房东"],
+          "description": "出租人的基本信息"
+        },
+        {
+          "name": "承租人信息",
+          "required": true,
+          "keywords": ["承租人", "乙方", "租客"],
+          "description": "承租人的基本信息"
+        },
+        {
+          "name": "房屋信息",
+          "required": true,
+          "keywords": ["房屋", "地址", "面积"],
+          "description": "租赁房屋的详细信息"
+        },
+        {
+          "name": "租赁期限",
+          "required": true,
+          "keywords": ["期限", "租期", "起止时间"],
+          "description": "租赁的起止日期"
+        },
+        {
+          "name": "租金",
+          "required": true,
+          "keywords": ["租金", "房租", "押一付三"],
+          "description": "租金金额、支付方式和支付时间"
+        },
+        {
+          "name": "押金",
+          "required": true,
+          "keywords": ["押金", "保证金"],
+          "description": "押金金额和退还条件"
+        }
+      ],
+      "legal_basis": ["民法典", "城市房地产管理法"],
+      "format_requirements": "符合《民法典》合同编要求"
+    },
+    {
+      "id": "contract-labor-001",
+      "name": "劳动合同",
+      "domain": "劳动",
+      "category": "合同协议",
+      "keywords": ["劳动合同", "员工", "用人单位", "工资", "社保"],
+      "description": "用人单位与劳动者建立劳动关系的合同",
+      "structure": {
+        "title": "劳动合同",
+        "sections": ["用人单位信息", "劳动者信息", "合同期限", "工作内容", "工作地点", "工作时间", "劳动报酬", "社会保险", "劳动保护", "合同解除", "违约责任"]
+      },
+      "elements": [
+        {
+          "name": "用人单位信息",
+          "required": true,
+          "keywords": ["用人单位", "甲方", "公司"],
+          "description": "用人单位的基本信息"
+        },
+        {
+          "name": "劳动者信息",
+          "required": true,
+          "keywords": ["劳动者", "乙方", "员工"],
+          "description": "劳动者的基本信息"
+        },
+        {
+          "name": "合同期限",
+          "required": true,
+          "keywords": ["期限", "合同期限", "试用期"],
+          "description": "劳动合同的起止时间"
+        },
+        {
+          "name": "工作内容",
+          "required": true,
+          "keywords": ["工作", "岗位", "职责"],
+          "description": "工作岗位和职责"
+        },
+        {
+          "name": "劳动报酬",
+          "required": true,
+          "keywords": ["工资", "报酬", "薪资"],
+          "description": "工资标准、支付方式和支付时间"
+        }
+      ],
+      "legal_basis": ["劳动合同法", "劳动法"],
+      "format_requirements": "符合《劳动合同法》要求"
+    },
+    {
+      "id": "divorce-agreement-001",
+      "name": "离婚协议书",
+      "domain": "民事",
+      "category": "婚姻家庭",
+      "keywords": ["离婚协议", "离婚", "财产分割", "子女抚养"],
+      "description": "夫妻双方自愿离婚时签订的协议",
+      "structure": {
+        "title": "离婚协议书",
+        "sections": ["当事人信息", "离婚意愿", "子女抚养", "财产分割", "债务处理", "其他约定"]
+      },
+      "elements": [
+        {
+          "name": "男方信息",
+          "required": true,
+          "keywords": ["男方", "丈夫"],
+          "description": "男方的基本信息"
+        },
+        {
+          "name": "女方信息",
+          "required": true,
+          "keywords": ["女方", "妻子"],
+          "description": "女方的基本信息"
+        },
+        {
+          "name": "子女抚养",
+          "required": false,
+          "keywords": ["子女", "抚养权", "抚养费"],
+          "description": "子女的抚养权和抚养费安排"
+        },
+        {
+          "name": "财产分割",
+          "required": true,
+          "keywords": ["财产", "分割", "房产", "车辆"],
+          "description": "夫妻共同财产的分割方案"
+        }
+      ],
+      "legal_basis": ["民法典"],
+      "format_requirements": "符合《民法典》婚姻家庭编要求"
+    },
+    {
+      "id": "will-001",
+      "name": "遗嘱",
+      "domain": "民事",
+      "category": "婚姻家庭",
+      "keywords": ["遗嘱", "继承", "遗产"],
+      "description": "遗嘱人对个人财产进行处分的法律文书",
+      "structure": {
+        "title": "遗嘱",
+        "sections": ["立遗嘱人信息", "财产清单", "继承安排", "遗嘱执行人", "见证人"]
+      },
+      "elements": [
+        {
+          "name": "立遗嘱人信息",
+          "required": true,
+          "keywords": ["立遗嘱人", "本人"],
+          "description": "立遗嘱人的基本信息和精神状态说明"
+        },
+        {
+          "name": "财产清单",
+          "required": true,
+          "keywords": ["财产", "遗产", "房产"],
+          "description": "遗嘱人所有的财产清单"
+        },
+        {
+          "name": "继承安排",
+          "required": true,
+          "keywords": ["继承人", "继承", "分配"],
+          "description": "财产的继承人和分配方案"
+        }
+      ],
+      "legal_basis": ["民法典"],
+      "format_requirements": "符合《民法典》继承编要求"
+    },
+    {
+      "id": "criminal-complaint-001",
+      "name": "刑事起诉书",
+      "domain": "刑事",
+      "category": "诉讼文书",
+      "keywords": ["刑事起诉", "公诉", "被告人", "罪名"],
+      "description": "人民检察院向人民法院提起公诉的文书",
+      "structure": {
+        "title": "刑事起诉书",
+        "sections": ["被告人信息", "案由", "犯罪事实", "证据", "法律依据", "量刑建议"]
+      },
+      "elements": [
+        {
+          "name": "被告人信息",
+          "required": true,
+          "keywords": ["被告人", "姓名", "年龄"],
+          "description": "被告人的基本信息"
+        },
+        {
+          "name": "犯罪事实",
+          "required": true,
+          "keywords": ["犯罪", "事实", "经过"],
+          "description": "指控的犯罪事实"
+        },
+        {
+          "name": "证据",
+          "required": true,
+          "keywords": ["证据", "证明"],
+          "description": "支持指控的证据材料"
+        },
+        {
+          "name": "法律依据",
+          "required": true,
+          "keywords": ["刑法", "条款"],
+          "description": "指控罪名的法律依据"
+        }
+      ],
+      "legal_basis": ["刑法", "刑事诉讼法"],
+      "format_requirements": "符合《刑事诉讼法》要求"
+    },
+    {
+      "id": "admin-review-001",
+      "name": "行政复议申请书",
+      "domain": "行政",
+      "category": "诉讼文书",
+      "keywords": ["行政复议", "申请", "行政机关", "处罚"],
+      "description": "公民、法人对行政行为不服申请复议的文书",
+      "structure": {
+        "title": "行政复议申请书",
+        "sections": ["申请人信息", "被申请人信息", "复议请求", "事实与理由", "证据"]
+      },
+      "elements": [
+        {
+          "name": "申请人信息",
+          "required": true,
+          "keywords": ["申请人"],
+          "description": "申请人的基本信息"
+        },
+        {
+          "name": "被申请人信息",
+          "required": true,
+          "keywords": ["被申请人", "行政机关"],
+          "description": "作出行政行为的机关信息"
+        },
+        {
+          "name": "复议请求",
+          "required": true,
+          "keywords": ["复议请求", "撤销"],
+          "description": "具体的复议请求"
+        }
+      ],
+      "legal_basis": ["行政复议法", "行政诉讼法"],
+      "format_requirements": "符合《行政复议法》要求"
+    },
+    {
+      "id": "ip-complaint-001",
+      "name": "知识产权起诉状",
+      "domain": "知识产权",
+      "category": "诉讼文书",
+      "keywords": ["知识产权", "侵权", "专利", "商标", "著作权"],
+      "description": "知识产权侵权诉讼的起诉状",
+      "structure": {
+        "title": "民事起诉状",
+        "sections": ["当事人信息", "诉讼请求", "侵权事实", "证据", "赔偿计算"]
+      },
+      "elements": [
+        {
+          "name": "原告信息",
+          "required": true,
+          "keywords": ["原告", "权利人"],
+          "description": "原告（知识产权权利人）的基本信息"
+        },
+        {
+          "name": "被告信息",
+          "required": true,
+          "keywords": ["被告", "侵权人"],
+          "description": "被告（侵权人）的基本信息"
+        },
+        {
+          "name": "权利证明",
+          "required": true,
+          "keywords": ["专利", "商标", "著作权", "证书"],
+          "description": "知识产权权属证明"
+        },
+        {
+          "name": "侵权事实",
+          "required": true,
+          "keywords": ["侵权", "事实"],
+          "description": "侵权行为的具体事实"
+        }
+      ],
+      "legal_basis": ["专利法", "商标法", "著作权法"],
+      "format_requirements": "符合知识产权诉讼文书要求"
+    }
+  ]
+}

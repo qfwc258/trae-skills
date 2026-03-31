@@ -1,0 +1,8 @@
+{
+  "name": "legal-ppt-template",
+  "version": "1.0.0",
+  "description": "法律案件分析PPT模板 - 基于湖南金厚律所风格",
+  "author": "法律智囊",
+  "license": "MIT",
+  "keywords": ["pptx", "template", "legal", "law", "presentation"]
+}
