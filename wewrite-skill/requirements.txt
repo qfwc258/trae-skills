@@ -1,0 +1,3 @@
+jieba>=3.8.0
+requests>=2.25.0
+pyyaml>=5.4.0
