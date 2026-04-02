@@ -1,10 +1,5 @@
-{
-  "name": "legal-aid-doc",
-  "version": "1.0.0",
-  "description": "法律援助文档自动填充工具 - 支持批量填充、智能占位符识别、案件类型管理",
-  "author": "法律智囊",
-  "entry": "fill_docx_pro.py",
-  "type": "script",
-  "tags": ["法律", "文档", "自动化", "word"],
-  "dependencies": ["python-docx"]
-}
+skill:
+  name: legal-aid-doc
+  version: 1.0.0
+  description: 法律援助文档生成
+  author: qfwc258

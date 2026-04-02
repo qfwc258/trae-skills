@@ -1,0 +1,5 @@
+skill:
+  name: minimax-docx
+  version: 1.0.0
+  description: Word文档处理
+  author: qfwc258

@@ -1,6 +1,5 @@
-{
-  "ownerId": "kn73y9pdjhxhssvmp574mfc57x820qap",
-  "slug": "zh-humanizer",
-  "version": "1.0.0",
-  "publishedAt": 1772257682080
-}
+skill:
+  name: zh-humanizer
+  version: 1.0.0
+  description: 去除AI写作痕迹（中文优化）
+  author: qfwc258

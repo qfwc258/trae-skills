@@ -1,0 +1,5 @@
+skill:
+  name: minimax-xlsx
+  version: 1.0.0
+  description: Excel表格处理
+  author: qfwc258

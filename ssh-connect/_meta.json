@@ -1,10 +1,5 @@
-{
-  "name": "ssh-connect",
-  "version": "1.0.0",
-  "description": "SSH 连接工具，用于远程服务器管理",
-  "author": "法律智囊",
-  "entry": "scripts/ssh_connect.py",
-  "type": "script",
-  "tags": ["ssh", "远程", "服务器"],
-  "dependencies": ["paramiko"]
-}
+skill:
+  name: ssh-connect
+  version: 1.0.0
+  description: SSH连接管理
+  author: qfwc258
